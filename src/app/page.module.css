@@ -5,6 +5,7 @@
   align-items: center;
   padding: 6rem;
   min-height: 100vh;
+  background-color: black;
 }
 
 .description {
@@ -102,6 +103,20 @@
   position: absolute;
   filter: blur(45px);
   transform: translateZ(0);
+}
+
+.description{
+  display: flex;
+  flex-direction: column;
+}
+
+.title{
+  color:white
+}
+
+.paragraph{
+  margin-top: 20px;
+  color:white
 }
 
 .logo {
