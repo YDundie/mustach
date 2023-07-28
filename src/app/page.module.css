@@ -130,6 +130,52 @@
 .logo {
   position: relative;
 }
+
+
+.footer{
+  color:white;
+  background-color: black;
+  min-height: 40vh;
+}
+
+.footer > h2{
+  text-align: center;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+.column{
+  margin: 0 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.row{
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+
+
+
+.rowEntry{
+  padding: 2rem;
+  margin: 1rem 2rem;
+  width: 17.5rem;
+}
+
+ 
+.rowEntry > h3 {
+   text-transform: uppercase;
+  margin: 1rem 0;
+}
+
+
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
   .card:hover {
@@ -153,6 +199,17 @@
   .content {
     padding: 4rem;
   }
+
+  .column{
+    justify-content: center;
+  }
+
+.row{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
 
   .title{
     font-size: 1.1rem;
