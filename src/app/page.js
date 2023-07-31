@@ -50,11 +50,11 @@ export default function Home() {
               </div>
               <div className={styles.rowEntry}>
                 <h3>OIB</h3>
-                <p>Ivana Zbulja 44, 40326 Sveta Marija</p>
+                <p>HR02178567982</p>
               </div>
               <div className={styles.rowEntry}>
                 <h3>MBS</h3>
-                <p>Ivana Zbulja 44, 40326 Sveta Marija</p>
+                <p>070199431</p>
               </div>
               <div className={styles.rowEntry}>
                 <h3>BANK</h3>
